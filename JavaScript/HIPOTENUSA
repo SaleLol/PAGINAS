@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hipotenusa</title>
+</head>
+<body>
+    <script>
+        const base = Number(prompt('De cuanto es la base?'))
+        const altura= Number(prompt('De cuanto es la altura?'))
+
+        function hipotenusa(b, h) {
+            return Math.sqrt((b*b) + (h*h))    
+        }
+
+        const perimetro = base + altura + hipotenusa(base, altura)
+        const superficie = (base * altura) / 2
+
+        document.write(`<p>perimetro: ${perimetro}</p>`)
+        document.write(`<p>superficie: ${superficie}</p>`)
+    </script>
+</body>
+</html>
