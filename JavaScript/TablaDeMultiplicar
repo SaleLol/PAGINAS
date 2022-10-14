@@ -1,0 +1,23 @@
+<html>
+<body>
+<script type="text/javascript">
+<!--
+var a = Number(prompt("Ingresar un numero"));
+var count= -1
+while (count < 10){
+ count++;
+ var multi= a * count   
+  document.write(+a);
+  document.write ("x");
+  document.write (+count);
+  document.write ("=    ");
+  document.write (+multi);
+  document.write ("<br/>")
+}
+document.write( "fin");
+//-->
+</script>
+   <p><a href="../index.html">VOLVER AL INDEX</a></p>
+
+</body>
+</html>
